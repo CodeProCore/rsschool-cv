@@ -12,3 +12,26 @@
 A goal-oriented individual with strong interpersonal and communication skills, complemented by analytical abilities. Reliable and dependable, with a strong team-working spirit and a keen willingness to learn and take on new responsibilities across various employment domains.
 
 ***
+
+**Skills**
+
+- **Languages:** JavaScript, HTML, CSS
+- **Frameworks:** React(Basic)
+- **Tools:** Git, Webpack
+- **Soft Skills:** Communication, Teamwork, Problem-solving, Analytical thinking
+
+***
+**Code Example**
+
+```
+function multiply(a, b) {
+  return a * b;
+}
+
+let r = multiply(4, 5);
+console.log(r); // Expected result: 20
+```
+
+***
+
+**Experience**
