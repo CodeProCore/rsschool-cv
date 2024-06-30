@@ -36,7 +36,7 @@ console.log(r); // Expected result: 20
 
 **Experience**
 
-\\***
+***
 
 **Education**
 
@@ -44,7 +44,7 @@ console.log(r); // Expected result: 20
 
 **Kharkiv National University of Radioelectronics** – Kharkiv, Ukraine  
 
-\\***
+***
 
 **Languages**
 
