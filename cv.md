@@ -6,7 +6,9 @@
 - **Email:** for4sudyfor4job@gmail.com
 - **Phone:** +380501368551
 - **GitHub:** [Andrii Kozhyn](https://github.com/CodeProCore)
+
 ***
+
 **Summary**
 
 A goal-oriented individual with strong interpersonal and communication skills, complemented by analytical abilities. Reliable and dependable, with a strong team-working spirit and a keen willingness to learn and take on new responsibilities across various employment domains.
