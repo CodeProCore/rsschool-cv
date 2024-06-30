@@ -35,3 +35,19 @@ console.log(r); // Expected result: 20
 ***
 
 **Experience**
+
+\\***
+
+**Education**
+
+### Bachelor's Degree in Computer Science
+
+**Kharkiv National University of Radioelectronics** – Kharkiv, Ukraine  
+
+\\***
+
+**Languages**
+
+- **English:**   - B1
+- **Ukrainian:** - Fluent
+- **Russian:**   - native speaker.
