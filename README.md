@@ -1,1 +1,1 @@
-[My CV](https://CodeProCore.github.io/rsschool-cv/)
+https://CodeProCore.github.io/rsschool-cv/

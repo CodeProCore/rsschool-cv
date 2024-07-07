@@ -1,3 +1,252 @@
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f2c100;
+    padding-bottom: 20px;
+    
+
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header-left h1 {
+    border-bottom: 2px solid #f2c100;
+    width: 30%;
+}
+
+.header-left h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.header-right {
+    flex: 0 0 150px;
+    text-align: center;
+}
+
+.header-right img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #f2c100;
+}
+
+/* Contact Styles */
+.contact p, .contact a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.contact p {
+    color: black;
+    font-weight: bold;
+}
+
+.contact a {
+    color: black;
+    font-weight: 400;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #71A7E2;
+}
+
+/* Section Styles */
+
+
+.skills-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.skill span {
+    flex: 1;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.skill-bar {
+    flex: 3;
+    background-color: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #f2c100;
+}
+.skill-level-HTML {
+    width: 75%;
+    background-image: linear-gradient(0.25turn,#ff3029 75%,#ffffff 99%);
+}
+.skill-level-CSS {
+    width: 65%;
+    background-image: linear-gradient(0.25turn,#2998ff 75%,#ffffff 99%);
+}
+.skill-level-javascript{
+    width: 35%; 
+    background-image: linear-gradient(0.25turn,#f2c100 75%,#ffffff 99%);
+
+}
+.skill-level-react {
+    width: 25%;
+    background-image: linear-gradient(0.25turn,#75dffb 75%,#ffffff 99%);
+
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin: 20px 0;
+    
+}
+
+h2 {
+    background-image: linear-gradient(0.25turn,#FFD829 18%,#fcfcfc 35%);
+}
+h2.head_section {
+    background-image: linear-gradient(0.25turn,#FFD829 25%,#fcfcfc 42%);
+}
+
+
+h2.section-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h2.section-title::before, h2.section-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 5px;
+    background-color: #f2c100;
+    transform: translateY(-50%);
+}
+
+h2.section-title::before {
+    left: -30px;
+}
+
+h2.section-title::after {
+    right: -30px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Code Example Styles */
+.code-example pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 5px solid #f2c100;
+    overflow-x: auto;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    color: white;
+    background-image: linear-gradient(0.25turn, #71cbff, #FFD829);
+}
+
+.footer__github {
+    display: flex;
+    align-items: center;
+}
+
+.footer__github::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url("img/github-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.footer__year {
+    text-align: center;
+}
+
+.footer__rsschool {
+    display: flex;
+    align-items: center;
+}
+
+.footer__rsschool img {
+    height: 32px;
 }
