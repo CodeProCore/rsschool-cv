@@ -201,6 +201,35 @@ ul li {
     margin-bottom: 10px;
 }
 
+
+
+/* Стили для ссылки в разделе Experience */
+.experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience ul li {
+    display: inline-block;
+}
+
+.experience ul li a {
+    color: black;
+    text-decoration: none;
+    background: linear-gradient(90deg, #8EC5FC, #E0C3FC, #FFE53B);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+.experience ul li a:hover {
+    color: blue;
+}
+
+.experience ul li a:visited {
+    color: black;
+}
+
 /* Code Example Styles */
 .code-example pre {
     background-color: #f4f4f4;
