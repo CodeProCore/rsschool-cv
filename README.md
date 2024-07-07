@@ -1,2 +1,1 @@
-https://codeprocore.github.io/rsschool-cv/cv
-https://codeprocore.github.io/rsschool-cv/
+https://CodeProCore.github.io/rsschool-cv/
